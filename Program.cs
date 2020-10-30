@@ -6,7 +6,8 @@ namespace AlgoritmsandDataStructures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FirstNonRepeatingCharacter f = new FirstNonRepeatingCharacter();
+            f.findFirstNRC();
         }
     }
 }
