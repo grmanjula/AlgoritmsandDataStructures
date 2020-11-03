@@ -18,10 +18,16 @@ namespace AlgoritmsandDataStructures
 
 //            Leader l1= new Leader();
 //            l1.getLeader();
-            BubbleSort b = new BubbleSort();
-            b.Sort();
+            //BubbleSort b = new BubbleSort();
+            //b.Sort();
+            //Console.ReadKey();
+            PrintAllSubstrings p = new PrintAllSubstrings();
+            //p.printSubStrings();
+            // p.printallSubStrings("seattle");
+            //p.printallSubStrings("Amazon");
+            AnagramsUsingDictionary a = new AnagramsUsingDictionary();
+            a.areAnagrams("iceman", "cinema");
             Console.ReadKey();
-
         }
     }
 }
